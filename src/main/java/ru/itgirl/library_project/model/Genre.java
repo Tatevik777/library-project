@@ -1,4 +1,4 @@
-package ru.itgirl.library_project.model.entity;
+package ru.itgirl.library_project.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
