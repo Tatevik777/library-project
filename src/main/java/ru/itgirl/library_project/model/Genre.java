@@ -1,15 +1,14 @@
 package ru.itgirl.library_project.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Getter
+@Setter
 @Entity
 public class Genre {
     @Id
